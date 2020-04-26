@@ -1,7 +1,7 @@
 # Site settings
 title: Rustom Ichhaporia
 description: Rustom Ichhaporia Homepage
-baseurl: "home" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rustom-ichhaporia.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings

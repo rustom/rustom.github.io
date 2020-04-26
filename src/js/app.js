@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 160,
+        "value": 317,
         "density": {
           "enable": true,
-          "value_area": 500
+          "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#ff0000"
       },
       "shape": {
         "type": "circle",
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 6
         },
         "image": {
           "src": "img/github.svg",
@@ -31,27 +31,27 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "opacity": {
-        "value": 1,
-        "random": true,
+        "value": 0.6329468885452632,
+        "random": false,
         "anim": {
-          "enable": true,
+          "enable": false,
           "speed": 1,
-          "opacity_min": 0,
+          "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 3,
+        "value": 12,
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 4,
-          "size_min": 0.3,
+          "speed": 40,
+          "size_min": 0.1,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -59,16 +59,16 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "move": {
         "enable": true,
-        "speed": 1,
+        "speed": 6,
         "direction": "none",
-        "random": true,
+        "random": false,
         "straight": false,
         "out_mode": "out",
         "bounce": false,
         "attract": {
           "enable": false,
           "rotateX": 600,
-          "rotateY": 600
+          "rotateY": 1200
         }
       }
     },
@@ -76,12 +76,12 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "bubble"
+          "enable": true,
+          "mode": "repulse"
         },
         "onclick": {
-          "enable": false,
-          "mode": "repulse"
+          "enable": true,
+          "mode": "push"
         },
         "resize": true
       },
@@ -93,14 +93,14 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         },
         "bubble": {
-          "distance": 250,
-          "size": 0,
+          "distance": 400,
+          "size": 40,
           "duration": 2,
-          "opacity": 0,
+          "opacity": 8,
           "speed": 3
         },
         "repulse": {
-          "distance": 400,
+          "distance": 75,
           "duration": 0.4
         },
         "push": {
