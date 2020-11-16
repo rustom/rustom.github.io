@@ -48,12 +48,11 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Rustom Ichhaporia.</h2>;
+  const three = <h3 className="big-heading">I combine data with everything.</h3>;
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I'm a computer science and statistics student at the University of Illinois, Urbana-Champaign interested in the intersection of data and everything. 
     </p>
   );
   const five = (
