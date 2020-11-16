@@ -5,7 +5,7 @@ module.exports = {
     title: 'Rustom Ichhaporia',
     description:
       'Rustom Ichhaporia is a computer science and statistics student at the UIUC interested in the intersection of data and everything.',
-    siteUrl: 'https://rustom.dev', // No trailing slash allowed!
+    siteUrl: 'https://rustom-ichhaporia.github.io', // No trailing slash allowed!
     image: 'src/images/logo.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@cantspellrustom',
   },
