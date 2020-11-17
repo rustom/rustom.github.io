@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://rustom-ichhaporia.github.io/sitemap.xml
-Host: https://rustom-ichhaporia.github.io
