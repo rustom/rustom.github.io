@@ -32,7 +32,7 @@
                 "android": null,
                 "company": ""
               },
-              "html": "<p>A collection of animations I made using JavaScript on the creative coding platform OpenProcessing. </p>"
+              "html": "<p>A collection of animations I made using JavaScript on the creative coding platform OpenProcessing.</p>"
             }
           },
           {
@@ -77,7 +77,7 @@
                 "android": null,
                 "company": "UIUC"
               },
-              "html": "<p>A colorful, JSON-customizable text adventure game built for the terminal with a comprehensive testing suite. </p>"
+              "html": "<p>A colorful, JSON-customizable text adventure game built for the terminal with a comprehensive testing suite.</p>"
             }
           },
           {
@@ -92,7 +92,7 @@
                 "android": null,
                 "company": null
               },
-              "html": "<p>Some SVG animations and transitions made in a web-hosted flutter app. </p>"
+              "html": "<p>Some SVG animations and transitions made in a web-hosted flutter app.</p>"
             }
           },
           {
@@ -144,5 +144,6 @@
       }
     },
     "pageContext": {}
-  }
+  },
+  "staticQueryHashes": ["1994492073", "3391063840", "3618961439", "4112399270", "604461682"]
 }

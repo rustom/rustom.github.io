@@ -27,24 +27,27 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    url: 'webpack-runtime-ec0e1a90d9e4f33dee50.js',
+    url: 'webpack-runtime-6f3ec7fb4f2473f5d1a7.js',
   },
   {
-    url: 'framework-3321703c33570853116c.js',
+    url: 'framework-305b3707783ccc9d7ca6.js',
   },
   {
-    url: 'app-b58a6bd1085d20ec4a2b.js',
+    url: 'app-d0b5f067ef2b04007ca0.js',
   },
   {
     url: 'offline-plugin-app-shell-fallback/index.html',
-    revision: 'e30499ea980840b3d8aac2966c4c1a6d',
+    revision: '4bbee4fa13ca93d71a371d2591f3860f',
   },
   {
-    url: 'component---cache-caches-gatsby-plugin-offline-app-shell-js-b1462017a2c34a95e2b4.js',
+    url: 'component---cache-caches-gatsby-plugin-offline-app-shell-js-16703ee5599528db9f93.js',
+  },
+  {
+    url: 'polyfill-a87eb95ccd509b0cf58e.js',
   },
   {
     url: 'manifest.webmanifest',
-    revision: 'a4b794f7f92dab630fcc9c1b6c2b2ab0',
+    revision: 'c67bd5dd8a4306e2103f89f8be2c0fdb',
   },
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -55,7 +58,7 @@ workbox.routing.registerRoute(
   'GET',
 );
 workbox.routing.registerRoute(
-  /^https?:.*\page-data\/.*\/page-data\.json/,
+  /^https?:.*\/page-data\/.*\.json/,
   new workbox.strategies.StaleWhileRevalidate(),
   'GET',
 );
@@ -71,8 +74,7 @@ workbox.routing.registerRoute(
 );
 
 /* global importScripts, workbox, idbKeyval */
-
-importScripts(`idb-keyval-iife.min.js`);
+importScripts(`idb-keyval-3.2.0-iife.min.js`);
 
 const { NavigationRoute } = workbox.routing;
 
@@ -153,7 +155,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`);
-  if (!resources || !(await caches.match(`/app-b58a6bd1085d20ec4a2b.js`))) {
+  if (!resources || !(await caches.match(`/app-d0b5f067ef2b04007ca0.js`))) {
     return await fetch(event.request);
   }
 
