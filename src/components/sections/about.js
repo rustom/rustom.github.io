@@ -19,6 +19,8 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
+  word-wrap: break-word;
+
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -132,7 +134,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  // const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Pandas', 'C++', 'Java', 'C#', 'TensorFlow'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +144,21 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Rustom, a CS + statistics student at UIUC.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I work at the intersection of data science and, well, everything. I believe leveraging
+              the power of data of all sizes can have an impact on any field, so I try my best to
+              explore all the ways it can be used.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I'm currently studying at the{' '}
+              <a href="https://cs.illinois.edu/">University of Illinois at Urbana-Champaign</a>,
+              working as an AI Research Intern at the{' '}
+              <a href="https://irisklabuiuc.wixsite.com/actsi/associates">Illinois Risk Lab</a>{' '}
+              where I work on the end-to-end data pipeline for the AI-Powered Lifecycle Financial
+              Planning project.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

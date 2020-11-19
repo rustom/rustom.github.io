@@ -1,26 +1,22 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'rustom [at] rustom [dot] dev',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/rustom-ichhaporia',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/rustom-ichhaporia',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/rust.om',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/cantspellrustom',
     },
   ],
 
@@ -45,8 +41,8 @@ module.exports = {
 
   colors: {
     green: '#64ffda',
-    navy: '#ffa984',
-    darkNavy: '#ffa984',
+    navy: '#0a192f',
+    darkNavy: '#020c1b',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({

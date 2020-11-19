@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Rustom Ichhaporia',
     description:
-      'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Rustom Ichhaporia is a computer science and statistics student at UIUC interested in the intersection of data science and everything.',
     siteUrl: 'https://rustom-ichhaporia.github.io', // No trailing slash allowed!
-    // image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@cantspellrustom',
   },
   plugins: [
@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Rustom Ichhaporia',
-        short_name: 'rustom-ichhaporia.github.io',
+        short_name: 'Rustom Ichhaporia',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
