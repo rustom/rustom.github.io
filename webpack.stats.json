@@ -1,0 +1,155 @@
+{
+  "errors": [],
+  "warnings": [],
+  "namedChunkGroups": {
+    "polyfill": {
+      "chunks": [1, 12],
+      "assets": [
+        "webpack-runtime-6f3ec7fb4f2473f5d1a7.js",
+        "webpack-runtime-6f3ec7fb4f2473f5d1a7.js.map",
+        "polyfill-a87eb95ccd509b0cf58e.js",
+        "polyfill-a87eb95ccd509b0cf58e.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "app": {
+      "chunks": [1, 11, 2],
+      "assets": [
+        "webpack-runtime-6f3ec7fb4f2473f5d1a7.js",
+        "webpack-runtime-6f3ec7fb4f2473f5d1a7.js.map",
+        "framework-305b3707783ccc9d7ca6.js",
+        "framework-305b3707783ccc9d7ca6.js.map",
+        "app-d0b5f067ef2b04007ca0.js",
+        "app-d0b5f067ef2b04007ca0.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---cache-caches-gatsby-plugin-offline-app-shell-js": {
+      "chunks": [3],
+      "assets": [
+        "component---cache-caches-gatsby-plugin-offline-app-shell-js-16703ee5599528db9f93.js",
+        "component---cache-caches-gatsby-plugin-offline-app-shell-js-16703ee5599528db9f93.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "chunks": [0, 4],
+      "assets": [
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js.map",
+        "component---src-pages-404-js-08f90ad8b2905e1368d6.js",
+        "component---src-pages-404-js-08f90ad8b2905e1368d6.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-archive-js": {
+      "chunks": [0, 5],
+      "assets": [
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js.map",
+        "component---src-pages-archive-js-94bae959860d2f2638c0.js",
+        "component---src-pages-archive-js-94bae959860d2f2638c0.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "chunks": [0, 6],
+      "assets": [
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js.map",
+        "component---src-pages-index-js-550ac5e161125db7c859.js",
+        "component---src-pages-index-js-550ac5e161125db7c859.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-pensieve-index-js": {
+      "chunks": [0, 7],
+      "assets": [
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js.map",
+        "component---src-pages-pensieve-index-js-8c4b50f8f871cd70305f.js",
+        "component---src-pages-pensieve-index-js-8c4b50f8f871cd70305f.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-pensieve-tags-js": {
+      "chunks": [0, 8],
+      "assets": [
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js.map",
+        "component---src-pages-pensieve-tags-js-1808ffc87c2655f88520.js",
+        "component---src-pages-pensieve-tags-js-1808ffc87c2655f88520.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-templates-post-js": {
+      "chunks": [0, 9],
+      "assets": [
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js.map",
+        "component---src-templates-post-js-816680de2af8b9e79a4b.js",
+        "component---src-templates-post-js-816680de2af8b9e79a4b.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-templates-tag-js": {
+      "chunks": [0, 10],
+      "assets": [
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+        "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js.map",
+        "component---src-templates-tag-js-fa6d064b339d3469dd48.js",
+        "component---src-templates-tag-js-fa6d064b339d3469dd48.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "assetsByChunkName": {
+    "polyfill": ["webpack-runtime-6f3ec7fb4f2473f5d1a7.js", "polyfill-a87eb95ccd509b0cf58e.js"],
+    "app": [
+      "webpack-runtime-6f3ec7fb4f2473f5d1a7.js",
+      "framework-305b3707783ccc9d7ca6.js",
+      "app-d0b5f067ef2b04007ca0.js"
+    ],
+    "component---cache-caches-gatsby-plugin-offline-app-shell-js": [
+      "component---cache-caches-gatsby-plugin-offline-app-shell-js-16703ee5599528db9f93.js"
+    ],
+    "component---src-pages-404-js": [
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+      "component---src-pages-404-js-08f90ad8b2905e1368d6.js"
+    ],
+    "component---src-pages-archive-js": [
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+      "component---src-pages-archive-js-94bae959860d2f2638c0.js"
+    ],
+    "component---src-pages-index-js": [
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+      "component---src-pages-index-js-550ac5e161125db7c859.js"
+    ],
+    "component---src-pages-pensieve-index-js": [
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+      "component---src-pages-pensieve-index-js-8c4b50f8f871cd70305f.js"
+    ],
+    "component---src-pages-pensieve-tags-js": [
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+      "component---src-pages-pensieve-tags-js-1808ffc87c2655f88520.js"
+    ],
+    "component---src-templates-post-js": [
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+      "component---src-templates-post-js-816680de2af8b9e79a4b.js"
+    ],
+    "component---src-templates-tag-js": [
+      "546641dfde76ed00139ea2c3eae09499c5f2164a-6aa6451b7956d6a0b3b7.js",
+      "component---src-templates-tag-js-fa6d064b339d3469dd48.js"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "data": {
+    "projects": {
+      "edges": [
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Boltzmann Particle Simulator",
+              "tech": ["C++", "Cinder", "OpenGL"],
+              "github": "https://github.com/uiuc-fa20-cs126/ideal-gas-rustom-ichhaporia",
+              "external": ""
+            },
+            "html": "<p>A JSON-customizable colorized particle simulator to demonstrate particle behavior and the Boltzmann Distribution.</p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "OpenProcessing Animations",
+              "tech": ["JavaScript", "p5.js"],
+              "github": "",
+              "external": "https://www.openprocessing.org/user/247938"
+            },
+            "html": "<p>A collection of animations I made using JavaScript on the creative coding platform OpenProcessing. </p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "MNIST Naive Bayes Classifier",
+              "tech": ["C++", "Cinder"],
+              "github": "https://github.com/uiuc-fa20-cs126/naivebayes-rustom-ichhaporia",
+              "external": ""
+            },
+            "html": "<p>A C++ applicaton that uses a machine learning made from scratch to identify numbers that you draw on the screen with your mouse.</p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Spotify Playlist Visualizer",
+              "tech": ["Java", "JFreeChart", "Spotify API"],
+              "github": "https://github.com/rustom-ichhaporia/spotify-visualizer",
+              "external": ""
+            },
+            "html": "<p>A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.</p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "UIUC Text Adventure",
+              "tech": ["Java"],
+              "github": "https://github.com/uiuc-fa20-cs126/amazing-adventures-rustom-ichhaporia",
+              "external": ""
+            },
+            "html": "<p>A colorful, JSON-customizable text adventure game built for the terminal with a comprehensive testing suite. </p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Flutter Animations",
+              "tech": ["Flutter"],
+              "github": "https://github.com/rustom-ichhaporia/flutter-website",
+              "external": "https://rustom-ichhaporia.github.io/flutter-website/#/"
+            },
+            "html": "<p>Some SVG animations and transitions made in a web-hosted flutter app. </p>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Image Play",
+              "tech": ["Python", "OpenCV", "PIL"],
+              "github": "https://github.com/rustom-ichhaporia/image-play",
+              "external": ""
+            },
+            "html": "<p>Some experiments with image pixelization and colorization I made with Python and OpenCV (and pictures of my friends)</p>"
+          }
+        }
+      ]
+    }
+  }
+}
