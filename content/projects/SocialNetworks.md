@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '2020-01-01'
 title: 'Social Network Analysis'
 cover: './professor-talk.png'
 github: 'https://github.com/rustom-ichhaporia/complex-social-networks-analysis'

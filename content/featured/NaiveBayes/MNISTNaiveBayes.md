@@ -1,7 +1,8 @@
 ---
-date: '2020-08-20'
+date: '1'
 title: 'MNIST Naive Bayes Classifier'
-github: 'https://github.com/uiuc-fa20-cs126/naivebayes-rustom-ichhaporia'
+cover: './number-three.png'
+github: 'https://github.com/rustom-ichhaporia/mnist-naive-bayes'
 external: ''
 tech:
   - C++

@@ -1,12 +1,12 @@
 ---
 date: '2018-05-14'
-title: 'Engineer'
+title: 'Research Assistant'
 company: 'Northwestern University'
 location: 'Boston, MA'
 range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+url: 'https://www.kleinlab.org/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Contributed to research on developing early-stage noninvasive Alzheimer’s Disease detection methods.
+- Optimized conjugation efficiency of probes with magnetic nanostructures and humanized antibodies.
+- Monitored mouse behavior, imaged brain tissue (later used in ML models), and aided immunoblotting efforts.
