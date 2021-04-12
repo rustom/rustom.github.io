@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { motion } from 'framer-motion';
 import { StaticImage } from 'gatsby-plugin-image';
+import { OutboundLink } from 'gatsby-plugin-google-gtag';
 import { GlobalStyle, theme } from '@styles';
 import { Cursor, LogoAnimation, SocialLinks } from '@components';
 
@@ -24,7 +25,7 @@ const Content = styled(motion.main)`
 
 const Description = styled(motion.p)``;
 
-const CustomLink = styled(motion.a)``;
+const CustomLink = styled(motion(OutboundLink))``;
 
 const container = {
   beginning: {},

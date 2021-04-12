@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
+import { OutboundLink } from 'gatsby-plugin-google-gtag';
 import { IconContext } from '@meronex/icons';
 import { siteMetadata } from '../../gatsby-config';
 import Icon from '@components/icons';
 import { mixins } from '@styles';
-import { motion } from 'framer-motion';
 
 const SocialLinksStyle = styled(motion.div)`
   ${mixins.whiteLink};
@@ -17,7 +18,7 @@ const SocialLinksStyle = styled(motion.div)`
   row-gap: 60px;
 `;
 
-const StyledLink = styled(motion.a)`
+const StyledLink = styled(motion(OutboundLink))`
   flex-basis: 25%;
   margin: auto;
 `;

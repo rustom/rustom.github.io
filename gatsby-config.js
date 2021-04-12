@@ -40,6 +40,18 @@ module.exports = {
     ],
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: ['G-9KHFVG54ST'],
+      },
+      gtagConfig: {
+        anonymize_ip: true
+      },
+      pluginConfig: {
+        head: true,
+      },
+    },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-gatsby-cloud',
     'gatsby-plugin-image',
@@ -69,12 +81,6 @@ module.exports = {
         path: './src/pages/',
       },
       __key: 'pages',
-    },
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: ['G-9KHFVG54ST'],
-      },
     },
   ],
 };
