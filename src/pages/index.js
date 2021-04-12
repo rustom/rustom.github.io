@@ -91,7 +91,7 @@ export default function Home() {
             >
               GitHub
             </CustomLink>
-            . You can also view my
+            . You can also view my{' '}
             <CustomLink
               href="/Rustom Ichhaporia Resume.pdf"
               aria-label="Rustom Ichhaporia Resume"
