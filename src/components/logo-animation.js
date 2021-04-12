@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import styled from 'styled-components';
 
 import Lottie from 'lottie-react';
@@ -9,8 +9,6 @@ import animation from '@images/data.json';
 const Container = styled(motion.div)``;
 
 export default function Splash() {
-  const [isToggled, toggle] = useState(0);
-
   const lottieRef = useRef();
 
   return (

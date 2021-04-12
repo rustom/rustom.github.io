@@ -46,7 +46,7 @@ module.exports = {
         trackingIds: ['G-9KHFVG54ST'],
       },
       gtagConfig: {
-        anonymize_ip: true
+        anonymize_ip: true,
       },
       pluginConfig: {
         head: true,
@@ -60,6 +60,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
+        name: 'Rustom Ichhaporia',
+        short_name: 'Rustom',
+        background_color: '#0a1930',
+        theme_color: '#b86440',
         icon: 'src/images/icon.png',
       },
     },
