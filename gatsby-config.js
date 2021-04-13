@@ -3,6 +3,8 @@ module.exports = {
     title: 'Rustom Ichhaporia',
     siteUrl: 'https://rustom.dev',
     description: "The third iteration of Rustom Ichhaporia's personal website.",
+    image: '/icon.png', // Path in static folder
+    twitterUsername: '@rustomtweets',
     socialMedia: [
       {
         name: 'Email',
