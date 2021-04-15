@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Rustom Ichhaporia',
     siteUrl: 'https://rustom.dev',
-    description: "The third iteration of Rustom Ichhaporia's personal website.",
+    description: "Welcome to Rustom Ichhaporia's home on the web.",
     image: '/icon.png', // Path in static folder
     twitterUsername: '@rustomtweets',
     socialMedia: [
