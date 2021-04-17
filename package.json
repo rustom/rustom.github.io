@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby build && gatsby serve -o",
     "clean": "gatsby clean",
-    "build-deploy": "gatsby build && rm -rf docs && mv public docs"
+    "build-deploy": "gatsby build && rm -rf docs && cp -r public docs"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.2.2",
