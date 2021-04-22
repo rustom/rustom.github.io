@@ -33,6 +33,7 @@ export default function Cursor() {
         gsap.to(cur, {
           x: e.clientX,
           y: e.clientY,
+          duration: 0.05,
         });
       }
     });
