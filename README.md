@@ -1,3 +1,3 @@
 # rustom.dev
 
-The code for my personal website, rustom.dev (also rustom.github.io).
+This repository holds the code for my personal website, rustom.dev (also rustom.github.io). 
