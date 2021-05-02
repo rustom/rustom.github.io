@@ -1,10 +1,14 @@
 # Rustom Ichhaporia's Home on the Web
 
+<br/>
+
 <div align="center">
 <a href="https://rustom.dev/">
   <img alt="Logo" src="./static/icon.png" width="100" />
 </a>
 </div>
+
+<br/>
 
 This repository holds the code for my personal website, [rustom.dev](https://rustom.dev). After taking two previous stabs at front-end development, I decided to go with something simpler for my new design. I'm hoping to put some more content up sometime soon. I'd love any feedback!
 
