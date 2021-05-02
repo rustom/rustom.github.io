@@ -65,15 +65,34 @@ export default function Home() {
                 Twitter
               </CustomLink>
               , where I use data to help promote socially healthy interactions
-              for everyone.
+              for everyone. I'm also an incoming artificial intelligence
+              researcher at{' '}
+              <CustomLink
+                href="https://www.research.ibm.com/artificial-intelligence/horizons-network/"
+                aria-label="IBM AI Horizons"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                IBM
+              </CustomLink>
+              's Center for Cognitive Computing Systems Research (
+              <CustomLink
+                href="https://www.c3sr.com/"
+                aria-label="Center for Cognitive Computing Systems Research"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                C3SR
+              </CustomLink>
+              ).
             </Description>
 
             <Description variants={item}>
-              I'm also a computer science + statistics student at the University
-              of Illinois at Urbana-Champaign (
+              I study computer science + statistics at the University of
+              Illinois at Urbana-Champaign (
               <CustomLink
                 href="https://cs.illinois.edu/"
-                aria-label="UIUC CS"
+                aria-label="UIUC Computer Science"
                 target="_blank"
                 rel="noopener noreferrer"
               >
