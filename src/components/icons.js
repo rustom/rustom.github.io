@@ -8,9 +8,9 @@ import {
   FaMediumM,
   FaSpotify,
   FaTwitter,
-} from '@meronex/icons/fa';
-import { SiGooglescholar } from '@meronex/icons/si';
-import { MdLink } from '@meronex/icons/md';
+} from 'react-icons/fa';
+import { SiGooglescholar } from 'react-icons/si';
+import { MdLink } from 'react-icons/md';
 
 const IconStyle = styled.div`
   * {
