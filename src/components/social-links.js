@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { OutboundLink } from 'gatsby-plugin-google-gtag';
-import { IconContext } from '@meronex/icons';
+import { IconContext } from 'react-icons';
 import { siteMetadata } from '../../gatsby-config';
 import Icon from '@components/icons';
 import { mixins } from '@styles';
