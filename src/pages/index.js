@@ -55,7 +55,19 @@ export default function Home() {
             </Description>
 
             <Description variants={item}>
-              I'm currently a machine learning intern at{' '}
+              I'm currently a quant trader intern at{' '}
+              <CustomLink
+                href="https://imc.com/"
+                aria-label="IMC Trading"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                IMC Trading
+              </CustomLink>.
+            </Description>
+
+            <Description variants={item}>
+              Previously, I've spent time in machine learning and software engineering roles at{' '}
               <CustomLink
                 href="https://twitter.com/"
                 aria-label="Twitter"
@@ -63,10 +75,8 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 Twitter
-              </CustomLink>
-              , where I use data to help promote socially healthy interactions
-              for everyone. I'm also an incoming artificial intelligence
-              researcher at{' '}
+              </CustomLink>,{' '}
+
               <CustomLink
                 href="https://www.research.ibm.com/artificial-intelligence/horizons-network/"
                 aria-label="IBM AI Horizons"
@@ -74,18 +84,15 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 IBM
-              </CustomLink>
-              's Center for Cognitive Computing Systems Research (
+              </CustomLink>, {' '}
               <CustomLink
-                href="https://www.c3sr.com/"
-                aria-label="Center for Cognitive Computing Systems Research"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                C3SR
-              </CustomLink>
-              ).
+              href="https://www.motorolasolutions.com/en_us.html"
+              aria-label="Motorola Solutions"
+              target="_black"
+              rel="noopener noreferrer">Motorola Solutions</CustomLink>, 
+              and a host of other companies and research labs. 
             </Description>
+
 
             <Description variants={item}>
               I study computer science + statistics at the University of
@@ -99,8 +106,8 @@ export default function Home() {
                 UIUC
               </CustomLink>
               ), where I'll be graduating in 2023. My work focuses on the ways
-              in which data science can be used to empower social networks. To
-              this end, I've completed 7 academic and corporate internships, and
+              in which data can be used to empower social networks. To
+              this end, I've completed 8 academic and corporate internships, and
               been published and presented research internationally 4 times.
             </Description>
 
@@ -123,7 +130,7 @@ export default function Home() {
               >
                 resume
               </CustomLink>
-              . I'm searching for new roles for fall of 2021 and all of 2022.
+              . I'm searching for new roles for fall of 2022 and all of 2023.
             </Description>
 
             <Description variants={item}>
