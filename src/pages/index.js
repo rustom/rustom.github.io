@@ -86,11 +86,11 @@ export default function Home() {
                 IBM
               </CustomLink>, {' '}
               <CustomLink
-              href="https://www.motorolasolutions.com/en_us.html"
-              aria-label="Motorola Solutions"
-              target="_black"
-              rel="noopener noreferrer">Motorola Solutions</CustomLink>, 
-              and a host of other companies and research labs. 
+                href="https://www.motorolasolutions.com/en_us.html"
+                aria-label="Motorola Solutions"
+                target="_black"
+                rel="noopener noreferrer">Motorola Solutions</CustomLink>,
+              and a host of other companies and research labs.
             </Description>
 
 
@@ -105,7 +105,7 @@ export default function Home() {
               >
                 UIUC
               </CustomLink>
-              ), where I'll be graduating in 2023. My work focuses on the ways
+              ). My work focuses on the ways
               in which data can be used to empower social networks. To
               this end, I've completed 8 academic and corporate internships, and
               been published and presented research internationally 4 times.
@@ -130,7 +130,7 @@ export default function Home() {
               >
                 resume
               </CustomLink>
-              . I'm searching for new roles for fall of 2022 and all of 2023.
+              . I'm searching for new roles for 2023.
             </Description>
 
             <Description variants={item}>
