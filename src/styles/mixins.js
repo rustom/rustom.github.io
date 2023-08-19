@@ -13,6 +13,7 @@ const mixins = {
       }
       :hover {
         color: ${theme.colors.background};
+        background: ${theme.colors.accent};
       }
       :active {
         color: ${theme.colors.background};

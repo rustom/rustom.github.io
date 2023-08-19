@@ -11,6 +11,9 @@ const SocialLinksStyle = styled(motion.div)`
   ${mixins.whiteLink};
   font-size: 1.5em;
   width: 100%;
+  justify-content: center;
+  
+  max-width: 500px;
 
   display: grid;
   justify-content: space-around;
@@ -21,12 +24,14 @@ const SocialLinksStyle = styled(motion.div)`
 const StyledLink = styled(motion(OutboundLink))`
   flex-basis: 25%;
   margin: auto;
+  padding: 8px;
+  border-radius: 10px;
 `;
 
 export default function SocialLinks({ variants }) {
   return (
     <SocialLinksStyle>
-      <IconContext.Provider value={{ size: '35px' }}>
+      <IconContext.Provider value={{ size: '30px' }}>
         {siteMetadata.socialMedia &&
           siteMetadata.socialMedia.map(({ url, name }) => (
             <StyledLink

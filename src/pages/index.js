@@ -12,7 +12,7 @@ const Wrapper = styled(motion.div)`
 
 const Content = styled(motion.main)`
   margin: auto;
-  margin-top: 150px;
+  margin-top: 5vw;
   // margin-top: 12vw;
   max-width: ${(props) => props.theme.sizes.maxWidth};
   padding-left: 20px;
@@ -20,15 +20,21 @@ const Content = styled(motion.main)`
   padding-bottom: 60px;
   box-size: border-box;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
-const Description = styled(motion.p)``;
+const Description = styled(motion.p)`
+  align-self: flex-start;
+`;
 
 const CustomLink = styled(motion(OutboundLink))``;
 
 const container = {
   beginning: {},
-  final: { transition: { delayChildren: 2.0, staggerChildren: 0.1 } },
+  final: { transition: { staggerChildren: 0.1 } },
   exit: { opacity: 0 },
 };
 const item = {
@@ -44,7 +50,7 @@ export default function Home() {
         <GlobalStyle />
         <Wrapper>
           <Content variants={container} initial="beginning" animate="final">
-            <LogoAnimation />
+            {/* <LogoAnimation /> */}
             <br />
             <Description variants={item}>
               Hi, I'm Rustom Ichhaporia!
@@ -55,7 +61,27 @@ export default function Home() {
             </Description>
 
             <Description variants={item}>
-              I'm currently a quant trader intern at{' '}
+              I'm currently a master's student at the University of Illinois at Urbana-Champaign (
+              <CustomLink
+                href="https://cs.illinois.edu/"
+                aria-label="UIUC Computer Science"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                UIUC
+              </CustomLink>).
+            </Description>
+
+            <Description variants={item}>
+              Previously, I've spent time in machine learning and software engineering and machine learning roles at{' '}
+              <CustomLink
+                href="https://www.snowflake.com/en/"
+                aria-label="Snowflake"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Snowflake
+              </CustomLink>,{' '}
               <CustomLink
                 href="https://imc.com/"
                 aria-label="IMC Trading"
@@ -63,11 +89,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 IMC Trading
-              </CustomLink>.
-            </Description>
-
-            <Description variants={item}>
-              Previously, I've spent time in machine learning and software engineering roles at{' '}
+              </CustomLink>,{' '}
               <CustomLink
                 href="https://twitter.com/"
                 aria-label="Twitter"
@@ -93,24 +115,6 @@ export default function Home() {
               and a host of other companies and research labs.
             </Description>
 
-
-            <Description variants={item}>
-              I study computer science + statistics at the University of
-              Illinois at Urbana-Champaign (
-              <CustomLink
-                href="https://cs.illinois.edu/"
-                aria-label="UIUC Computer Science"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                UIUC
-              </CustomLink>
-              ). My work focuses on the ways
-              in which data can be used to empower social networks. To
-              this end, I've completed 8 academic and corporate internships, and
-              been published and presented research internationally 4 times.
-            </Description>
-
             <Description variants={item}>
               You can find some of my projects on{' '}
               <CustomLink
@@ -130,7 +134,7 @@ export default function Home() {
               >
                 resume
               </CustomLink>
-              . I'm searching for new roles for 2023.
+              . I'm searching for new full-time roles in software engineering, data science, and quantative trading for 2024.
             </Description>
 
             <Description variants={item}>
@@ -139,7 +143,7 @@ export default function Home() {
             </Description>
             <br />
             <SocialLinks variants={item}></SocialLinks>
-            <Cursor />
+            {/* <Cursor /> */}
           </Content>
         </Wrapper>
       </ThemeProvider>

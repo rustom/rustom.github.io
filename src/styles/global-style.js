@@ -2,12 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 import theme from './theme';
 
 const GlobalStyle = createGlobalStyle`
-  html {
-    cursor: none;
-    a:link {
-      cursor: none;
-    }
-  }
+  // html {
+  //   cursor: none;
+  //   a:link {
+  //     cursor: none;
+  //   }
+  // }
 
   body {
     margin: 0;
@@ -47,10 +47,12 @@ const GlobalStyle = createGlobalStyle`
         color: ${theme.colors.accent};
       }
       :hover {
-        color: ${theme.colors.background};
+        text-decoration: underline;
+        // color: ${theme.colors.background};
       }
       :active {
-        color: ${theme.colors.background};
+        text-decoration: underline;
+        // color: ${theme.colors.background};
       }
     }
   }

@@ -31,7 +31,7 @@ const theme = {
     sans: 'IBM Plex Sans',
     mono: 'IBM Plex Mono',
     extra: 'Montserrat',
-    sizeDefault: '17px',
+    sizeDefault: '15px',
     weightDefault: 300,
   },
   sizes: {
