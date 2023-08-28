@@ -6,10 +6,10 @@ const mixins = {
     a {
       text-decoration: none;
       :link {
-        color: ${theme.colors.text};
+        color: ${theme.colors.accent};
       }
       :visited {
-        color: ${theme.colors.text};
+        color: ${theme.colors.accent};
       }
       :hover {
         color: ${theme.colors.background};

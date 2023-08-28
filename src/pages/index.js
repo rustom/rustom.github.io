@@ -73,7 +73,7 @@ export default function Home() {
             </Description>
 
             <Description variants={item}>
-              Previously, I've spent time in machine learning and software engineering and machine learning roles at{' '}
+              Previously, I've spent time in software engineering and machine learning roles at{' '}
               <CustomLink
                 href="https://www.snowflake.com/en/"
                 aria-label="Snowflake"
