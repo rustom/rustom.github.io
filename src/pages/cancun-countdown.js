@@ -52,7 +52,7 @@ const item = {
 };
 
 export default function CancunCountdown() {
-    var countDownDate = new Date("Oct 14, 2023 12:14:00").getTime();
+    var countDownDate = new Date("Oct 14, 2023 13:14:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
