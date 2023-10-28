@@ -134,7 +134,7 @@ export default function Home() {
               >
                 resume
               </CustomLink>
-              . I'm searching for new internship and full-time roles in software engineering, data science, and quantative trading for 2024.
+              . I'm searching for new internship and full-time roles in software engineering, data science, and quantitative trading for 2024.
             </Description>
 
             <Description variants={item}>
