@@ -9,7 +9,7 @@ const palette = {
   darkPeach: '#b86440',
   blue: '#4287f5',
   lightBlue: '#79cafc',
-  darkBlue: '#0a1930',
+  darkBlue: '#051124',
   grey4: '#cccccc',
   grey3: '#999999',
   grey2: '#444444',
@@ -31,11 +31,11 @@ const theme = {
     sans: 'IBM Plex Sans',
     mono: 'IBM Plex Mono',
     extra: 'Montserrat',
-    sizeDefault: '15px',
-    weightDefault: 300,
+    sizeDefault: '17px',
+    weightDefault: 400,
   },
   sizes: {
-    maxWidth: '600px',
+    maxWidth: '700px',
   },
 };
 

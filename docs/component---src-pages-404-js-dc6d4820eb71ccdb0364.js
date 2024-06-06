@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrustom_ichhaporia=self.webpackChunkrustom_ichhaporia||[]).push([[125],{3331:function(a,e,u){u.r(e);var s=u(6540),t=u(4794);e.default=()=>{(0,s.useEffect)((()=>{(0,t.navigate)("/")}),[])}}}]);
+//# sourceMappingURL=component---src-pages-404-js-dc6d4820eb71ccdb0364.js.map

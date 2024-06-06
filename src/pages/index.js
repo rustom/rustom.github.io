@@ -3,7 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { motion } from 'framer-motion';
 import { OutboundLink } from 'gatsby-plugin-google-gtag';
 import { GlobalStyle, theme } from '@styles';
-import { Cursor, Head, LogoAnimation, SocialLinks } from '@components';
+import { Head, LogoAnimation, SocialLinks } from '@components';
 
 const Wrapper = styled(motion.div)`
   width: 100vw;
@@ -12,8 +12,7 @@ const Wrapper = styled(motion.div)`
 
 const Content = styled(motion.main)`
   margin: auto;
-  margin-top: 5vw;
-  // margin-top: 12vw;
+  margin-top: 8vw;
   max-width: ${(props) => props.theme.sizes.maxWidth};
   padding-left: 20px;
   padding-right: 20px;
@@ -29,8 +28,6 @@ const Content = styled(motion.main)`
 const Description = styled(motion.p)`
   align-self: flex-start;
 `;
-
-const CustomLink = styled(motion(OutboundLink))``;
 
 const container = {
   beginning: {},
@@ -51,7 +48,7 @@ export default function Home() {
         <Wrapper>
           <Content variants={container} initial="beginning" animate="final">
             {/* <LogoAnimation /> */}
-            <br />
+            {/* <br /> */}
             <Description variants={item}>
               Hi, I'm Rustom Ichhaporia!
             </Description>
@@ -61,86 +58,60 @@ export default function Home() {
             </Description>
 
             <Description variants={item}>
-              I'm currently a master's student at the University of Illinois at Urbana-Champaign (
-              <CustomLink
-                href="https://cs.illinois.edu/"
-                aria-label="UIUC Computer Science"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                UIUC
-              </CustomLink>).
-            </Description>
-
-            <Description variants={item}>
-              Previously, I've spent time in software engineering and machine learning roles at{' '}
-              <CustomLink
-                href="https://www.snowflake.com/en/"
-                aria-label="Snowflake"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              Currently, I'm working on the Developer Productivity Engineering
+              team at{' '}
+              <OutboundLink href="https://snowflake.com" aria-label="Snowflake">
                 Snowflake
-              </CustomLink>,{' '}
-              <CustomLink
-                href="https://imc.com/"
-                aria-label="IMC Trading"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              </OutboundLink>
+              , where I develop tools to improve our internal developer
+              experience. Previously, I've spent time at{' '}
+              <OutboundLink href="https://imc.com" aria-label="IMC Trading">
                 IMC Trading
-              </CustomLink>,{' '}
-              <CustomLink
-                href="https://twitter.com/"
-                aria-label="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              </OutboundLink>
+              ,{' '}
+              <OutboundLink href="https://twitter.com" aria-label="Twitter">
                 Twitter
-              </CustomLink>,{' '}
-
-              <CustomLink
-                href="https://www.research.ibm.com/artificial-intelligence/horizons-network/"
-                aria-label="IBM AI Horizons"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              </OutboundLink>
+              , and{' '}
+              <OutboundLink href="https://ibm.com" aria-label="IBM">
                 IBM
-              </CustomLink>, {' '}
-              <CustomLink
-                href="https://www.motorolasolutions.com/en_us.html"
-                aria-label="Motorola Solutions"
-                target="_black"
-                rel="noopener noreferrer">Motorola Solutions</CustomLink>,
-              and a host of other companies and research labs.
+              </OutboundLink>
+              , as well as a host of other companies and research labs.
             </Description>
 
-            <Description variants={item}>
+            <Description>
               You can find some of my projects on{' '}
-              <CustomLink
-                href="https://github.com/rustom"
-                aria-label="Rustom Ichhaporia GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <OutboundLink href="https://github.com/rustom">
                 GitHub
-              </CustomLink>
-              . You can also view my{' '}
-              <CustomLink
-                href="/Rustom Ichhaporia Resume.pdf"
-                aria-label="Rustom Ichhaporia Resume"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                resume
-              </CustomLink>
-              . I'm searching for new internship and full-time roles in software engineering, data science, and quantitative trading for 2024.
+              </OutboundLink>{' '}
+              and my research on{' '}
+              <OutboundLink href="https://scholar.google.com/citations?user=fhRRnW8AAAAJ">
+                Google Scholar
+              </OutboundLink>
+              .
             </Description>
 
-            <Description variants={item}>
-              I'd love for you to reach out to me about my work, roles, movie
-              soundtracks, stand-up comedy, or anything else!
+            <Description>
+              You can also view my{' '}
+              <OutboundLink href="/Rustom_Ichhaporia_Resume.pdf">
+                resume
+              </OutboundLink>{' '}
+              and connect with me on{' '}
+              <OutboundLink href="https://www.linkedin.com/in/rustom-ichhaporia/">
+                LinkedIn
+              </OutboundLink>
+              .
             </Description>
+
+            <Description>
+              I'm always open to new opportunities in software engineering and
+              data science! I'd love for you to reach out to me at{' '}
+              <OutboundLink href="mailto:contact@rustom.dev?subject=Hi Rustom!">
+                contact@rustom.dev
+              </OutboundLink>
+              !
+            </Description>
+
             <br />
             <SocialLinks variants={item}></SocialLinks>
             {/* <Cursor /> */}

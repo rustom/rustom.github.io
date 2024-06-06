@@ -7,21 +7,19 @@ import { useStaticQuery, graphql } from 'gatsby';
 const Head = ({ title, description, image }) => {
   const { pathname } = useLocation();
 
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            defaultTitle: title
-            defaultDescription: description
-            siteUrl
-            defaultImage: image
-            twitterUsername
-          }
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          defaultTitle: title
+          defaultDescription: description
+          siteUrl
+          defaultImage: image
+          twitterUsername
         }
       }
-    `
-  );
+    }
+  `);
 
   const {
     defaultTitle,
@@ -70,15 +68,3 @@ const Head = ({ title, description, image }) => {
 };
 
 export default Head;
-
-Head.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
-};
-
-Head.defaultProps = {
-  title: null,
-  description: null,
-  image: null,
-};

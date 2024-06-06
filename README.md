@@ -29,35 +29,19 @@ Here are the tools, libraries, and plugins that I used to develop this site, as 
 
 ### NPM JavaScript Libraries
 
-| Library                                                    | Purpose                                                                  | In Use |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------ | ------ |
-| [ReactJS](https://reactjs.org/)                            | JavaScript library to dynamically create front-end components            | Y      |
-| [styled-components](https://styled-components.com/)        | CSS-in-JS, component-based styling for ReactJS                           | Y      |
-| [Framer Motion](https://www.framer.com/motion/)            | Declarative, customizable component animations for front-end development | Y      |
-| [GSAP](https://greensock.com/gsap/)                        | Speed-optimized, lightweight animations (used for cursor)                | Y      |
-| [lottie-react](https://www.npmjs.com/package/lottie-react) | Declarative use of Lottie animations created with Adobe After Effects    | Y      |
-| [Fontsource](https://fontsource.org/)                      | Self-hosted, open source font packages                                   | Y      |
-| [Prettier](https://prettier.io/)                           | Automatic code formatter                                                 | Y      |
+| Library                                                    | Purpose                                                                  |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [ReactJS](https://reactjs.org/)                            | JavaScript library to dynamically create front-end components            |
+| [styled-components](https://styled-components.com/)        | CSS-in-JS, component-based styling for ReactJS                           |
+| [Framer Motion](https://www.framer.com/motion/)            | Declarative, customizable component animations for front-end development |
+| [GSAP](https://greensock.com/gsap/)                        | Speed-optimized, lightweight animations (used for cursor)                |
+| [lottie-react](https://www.npmjs.com/package/lottie-react) | Declarative use of Lottie animations created with Adobe After Effects    |
+| [Fontsource](https://fontsource.org/)                      | Self-hosted, open source font packages                                   |
+| [Prettier](https://prettier.io/)                           | Automatic code formatter                                                 |
 
 ## Color Swatch
 
 You can see the rest of the colors and specs I have used in `src/styles/theme.js`.
-
-| Color        | Hex                                                                | In Use |
-| ------------ | ------------------------------------------------------------------ | ------ |
-| Navy         | ![#0a1930](https://via.placeholder.com/10/0a1930?text=+) `#0a1930` | Y      |
-| Dark Salmon  | ![#b86440](https://via.placeholder.com/10/b86440?text=+) `#b86440` | N      |
-| Salmon       | ![#ff8e5e](https://via.placeholder.com/10/ff8e5e?text=+) `#ff8e5e` | Y      |
-| Light Salmon | ![#ffa984](https://via.placeholder.com/10/ffa984?text=+) `#ffa984` | N      |
-| Light Grey   | ![#cccccc](https://via.placeholder.com/10/cccccc?text=+) `#cccccc` | Y      |
-
-## Fonts
-
-| Font                                                             | In Use |
-| ---------------------------------------------------------------- | ------ |
-| [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | Y      |
-| [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) | N      |
-| [Montserrat](https://fonts.google.com/specimen/Montserrat)       | N      |
 
 ## Acknowledgements
 

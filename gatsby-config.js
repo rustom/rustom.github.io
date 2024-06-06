@@ -8,7 +8,7 @@ module.exports = {
     socialMedia: [
       {
         name: 'Email',
-        url: 'rustom@rustom.dev',
+        url: 'contact@rustom.dev',
       },
       {
         name: 'GitHub',
@@ -21,23 +21,6 @@ module.exports = {
       {
         name: 'Scholar',
         url: 'https://scholar.google.com/citations?user=fhRRnW8AAAAJ',
-      },
-      {
-        name: 'Medium',
-        url: 'https://rustom.medium.com',
-      },
-      {
-        name: 'Instagram',
-        url: 'https://www.instagram.com/rust.om',
-      },
-      {
-        name: 'Twitter',
-        url: 'https://twitter.com/rustomtweets',
-      },
-      {
-        name: 'Spotify',
-        url:
-          'https://open.spotify.com/user/shidoarichimorin?si=Ky9HbbLVQa6aZC6fpRD_zQ',
       },
     ],
   },
