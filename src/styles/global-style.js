@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     background: ${theme.colors.background};
-    font-family: ${theme.fonts.sans};
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     color: ${theme.colors.text};
     font-size: ${theme.fonts.sizeDefault};
     line-height: 1.5em;

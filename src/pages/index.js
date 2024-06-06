@@ -79,7 +79,7 @@ export default function Home() {
               , as well as a host of other companies and research labs.
             </Description>
 
-            <Description>
+            <Description variants={item}>
               You can find some of my projects on{' '}
               <OutboundLink href="https://github.com/rustom">
                 GitHub
@@ -91,7 +91,7 @@ export default function Home() {
               .
             </Description>
 
-            <Description>
+            <Description variants={item}>
               You can also view my{' '}
               <OutboundLink href="/Rustom_Ichhaporia_Resume.pdf">
                 resume
@@ -103,7 +103,7 @@ export default function Home() {
               .
             </Description>
 
-            <Description>
+            <Description variants={item}>
               I'm always open to new opportunities in software engineering and
               data science! I'd love for you to reach out to me at{' '}
               <OutboundLink href="mailto:contact@rustom.dev?subject=Hi Rustom!">
