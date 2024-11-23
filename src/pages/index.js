@@ -58,13 +58,15 @@ export default function Home() {
             </Description>
 
             <Description variants={item}>
-              Currently, I'm working on the Developer Productivity Engineering
-              team at{' '}
-              <OutboundLink href="https://snowflake.com" aria-label="Snowflake">
-                Snowflake
+              Currently, I'm building {' '}
+              <OutboundLink href="https://kalshi.com" aria-label="Kalshi">
+                Kalshi
               </OutboundLink>
-              , where I develop tools to improve our internal developer
-              experience. Previously, I've spent time at{' '}
+              , the first legal event contract marketplace in the US.
+            </Description>
+
+            <Description variants={item}>
+              Previously, I've spent time at{' '}
               <OutboundLink href="https://imc.com" aria-label="IMC Trading">
                 IMC Trading
               </OutboundLink>
@@ -73,8 +75,8 @@ export default function Home() {
                 Twitter
               </OutboundLink>
               , and{' '}
-              <OutboundLink href="https://ibm.com" aria-label="IBM">
-                IBM
+              <OutboundLink href="https://snowflake.com" aria-label="Snowflake">
+                Snowflake
               </OutboundLink>
               , as well as a host of other companies and research labs.
             </Description>
