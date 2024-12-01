@@ -1,46 +1,29 @@
 {
-  "name": "rustom-ichhaporia",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Rustom Ichhaporia",
-  "author": "Rustom Ichhaporia",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby build && gatsby serve -o",
-    "clean": "gatsby clean",
-    "build-deploy": "gatsby build && rm -rf docs && cp -r public docs"
-  },
-  "dependencies": {
-    "@parcel/namer-default": "^2.12.0",
-    "babel-plugin-styled-components": "^2.1.4",
-    "framer-motion": "^11.2.10",
-    "gatsby": "^5.13.6",
-    "gatsby-plugin-gatsby-cloud": "^5.13.1",
-    "gatsby-plugin-google-gtag": "^5.13.1",
-    "gatsby-plugin-image": "^3.13.1",
-    "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-mdx": "^5.13.1",
-    "gatsby-plugin-react-helmet": "^6.13.1",
-    "gatsby-plugin-sharp": "^5.13.1",
-    "gatsby-plugin-sitemap": "^6.13.1",
-    "gatsby-plugin-styled-components": "^6.13.1",
-    "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-transformer-sharp": "^5.13.1",
-    "gsap": "^3.12.5",
-    "lottie-react": "^2.4.0",
-    "prettier": "^3.3.1",
-    "prop-types": "^15.8.1",
-    "query-string": "^9.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^5.2.1",
-    "react-is": "^18.3.1",
-    "styled-components": "^6.1.11"
-  }
+	"name": "personal-website",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build && cp -r build docs",
+		"preview": "vite preview",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.6",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "^8.56.7",
+		"eslint": "^9.0.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.36.0",
+		"globals": "^15.0.0",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.7",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
 }

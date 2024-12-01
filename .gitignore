@@ -1,4 +1,12 @@
-node_modules/
-.cache/
-public
-**.gz
+.DS_Store
+node_modules
+/.svelte-kit
+/package
+/build
+.env
+.env.*
+!.env.example
+.vercel
+.output
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
