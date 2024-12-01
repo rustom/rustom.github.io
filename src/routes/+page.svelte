@@ -1,6 +1,5 @@
 <script>
 	import { onMount } from 'svelte';
-	import { base } from "$app/paths";
 
 	let paragraphElements = [];
 
@@ -50,7 +49,7 @@
 	</p>
 
 	<p bind:this={paragraphElements[4]}>
-		You can also view my <a href="{base}/Rustom_Ichhaporia_Resume.pdf">resume</a> and connect with me on
+		You can also view my <a href="/Rustom_Ichhaporia_Resume.pdf">resume</a> and connect with me on
 		<a href="https://www.linkedin.com/in/rustom-ichhaporia/">LinkedIn</a>.
 	</p>
 
