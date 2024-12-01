@@ -64,17 +64,17 @@
 	:root {
 		--kalshi-green: #09d697;
 		--orange: #f9d423;
-		--dark-orange: #ff9900;
+		--dark-orange: #f17901;
 		--yellow: #f9d423;
 		--white: #ffffff;
 		--black: #000000;
 		--dark-grey: #600000;
-		--pale: #fff2d5;
+		--pale: #ebe7dc;
+		--medium-blue: #171e2a;
 
-		--background: #171e2a;
-		/* var(--black); */
-		--text: #ebe7dc;
-		--accent: #f17901;
+		--background: var(--medium-blue);
+		--text: var(--pale);
+		--accent: var(--dark-orange);
 	}
 	:global(body) {
 		background-color: var(--background);
