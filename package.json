@@ -4,7 +4,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && cp -r build docs",
+		"build": "vite build && rm -rf ./docs && cp -r ./build ./docs",
 		"preview": "vite preview",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint ."
